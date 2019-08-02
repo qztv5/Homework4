@@ -28,7 +28,7 @@ public class Lambdas {
 		//str.stream().filter(e->e.startsWith("e")).forEach(System.out::println);
 		//str.stream().filter(e->!e.startsWith("e")).forEach(System.out::println);
 		Arrays.sort(str.toArray(), (s1,s2)-> sortByE(s1,s2));
-		str.stream().forEach(System.out::println);
+		
 		List<Integer> l1 = new ArrayList<Integer>();
 		l1.add(3);
 		l1.add(5);
